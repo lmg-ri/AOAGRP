@@ -2,7 +2,7 @@
   - designing the user interface
   - testing and debugging validation logic
 */
-package Project;
+
 
 public class FixedInvestor
 {
@@ -95,5 +95,6 @@ public class FixedInvestor
 	}
 	
 }
+
 
 
