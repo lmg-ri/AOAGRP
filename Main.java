@@ -46,7 +46,7 @@ public class Main {
     }
 
     // =====================================================
-    // 1. FIXED INVESTOR – COMPOUND INTEREST
+    // 1. FIXED INVESTOR 
     // =====================================================
     private static void runFixedInvestor(Scanner sc) {
 
@@ -54,7 +54,7 @@ public class Main {
         int years = 0;
 
         System.out.println("\n=======================================");
-        System.out.println(" FIXED INVESTOR - COMPOUND INTEREST");
+        System.out.println(" FIXED INVESTOR SYSTEM");
         System.out.println("=======================================");
 
         // PRINCIPAL
@@ -237,5 +237,6 @@ public class Main {
         }
     }
 }
+
 
 
