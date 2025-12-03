@@ -12,9 +12,9 @@ public class Main {
             System.out.println("\n=======================================");
             System.out.println("                MAIN MENU");
             System.out.println("=======================================");
-            System.out.println("1. Fixed Investor");
+            System.out.println("1. Fixed Investor Simulator");
             System.out.println("2. Retirement Depletion Simulator");
-            System.out.println("3. Success Approximation");
+            System.out.println("3. Success Approximation Simulator");
             System.out.println("4. Exit");
             System.out.print("Choose an option: ");
 
@@ -237,6 +237,7 @@ public class Main {
         }
     }
 }
+
 
 
 
