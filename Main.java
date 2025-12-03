@@ -15,7 +15,8 @@ public class Main {
             System.out.println("1. Fixed Investor Simulator");
             System.out.println("2. Retirement Depletion Simulator");
             System.out.println("3. Success Approximation Simulator");
-            System.out.println("4. Exit");
+            System.out.println("4. Variable Growth Simulator");
+            System.out.println("5. Exit");
             System.out.print("Choose an option: ");
 
             int choice = safeInt(sc);
@@ -33,8 +34,12 @@ public class Main {
                 case 3:
                     runSuccessApproximation(sc);
                     break;
-
+                    
                 case 4:
+                    runVariableGrowthSimulator(sc);
+                    break;
+
+                case 5:
                     System.out.println("Exiting Program...");
                     sc.close();
                     return;
@@ -237,6 +242,7 @@ public class Main {
         }
     }
 }
+
 
 
 
